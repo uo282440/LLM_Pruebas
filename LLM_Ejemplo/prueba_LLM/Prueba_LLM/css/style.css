@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
+
+img {
+    width: 33%;
+    height: auto;
+}
+
+button {
+    margin-left: 2%;
+    margin-right: 2%;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8" />
+        <title>ASW LLMs</title>
+
+        <link rel="icon" href="../img/plaza_esp_sevilla.jpeg" type="image/jpeg">
+        <link rel="stylesheet" href="../css/style.css">
+
+        <script 
+            src="https://code.jquery.com/jquery-3.7.1.min.js" 
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" 
+            crossorigin="anonymous">
+        </script>
+
+        <script src="../js/pruebaLLM.js" defer></script>
+
+    </head>
+
+    <body>
+        <h1>Juego: Foto y LLM</h1>
+
+        <section>
+            <img src="../img/plaza_esp_sevilla.jpeg" alt="foto Sevilla">
+
+            <h3>¿Cuál es esta ciudad?</h3>
+
+        </section>
+
+        <main>
+            
+
+        </main>
+        
+        
+        <script>
+            window.onload = function () {
+                var js = new pruebaLLM("Sevilla");
+                js.inicializaPagina();
+            };
+        </script>
+        
+
+    </body>
+
+</html>
